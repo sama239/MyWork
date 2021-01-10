@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Montserrat' ,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*<!--  navbar part-->*/
+.navbar .container{
+    max-width: 125rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.navbar{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1000;
+    width: 100%
+}
+.navbar .nav{
+    height: 10rem;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin-top: 5.5rem;
+}
+
+
+.navbar .nav-list{
+    display: flex;
+    list-style: none;
+}
+.navbar .nav-item{
+    margin-right: 5rem;
+}
+.navbar .nav-item:last-child{
+    margin-right: 10rem;
+}
+.navbar .nav-link{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:black;
+    transition: opacity .3s;
+}
+.navbar .nav-link:hover{
+    opacity: .6;
+}
+.navbar .logo{
+   display: block;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 4rem;
+}
+
+.navbar .nav-item .black-btn{
+    background: black;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5rem;
+    
+}
+
+/*Landing page part1*/ 
+
+.landing-page .container{
+
+    max-width: 125rem;
+    margin: 0 auto;
+    padding: 0 1.5rem
+}
+.landing-page{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.landing-page .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+    padding: 22rem 0;
+}
+.landing-page .content-details{
+    max-width: 88%;
+    margin-left: 5rem;
+}
+.landing-page .title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.landing-page .paragraph{
+    margin-bottom: 3.5rem;
+    line-height: 2;
+    width: 50%;
+}
+.landing-page .view{
+    margin-bottom: 1rem;
+}
+.landing-page .view-btn{
+    background: #3F3D56;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5rem;
+    width: 13rem;
+    
+}
+.landing-page .view-btn:hover{
+     opacity: .6;
+}
+.landing-page .sm-list{
+    display: flex;
+    margin-top: 7rem;
+}
+.landing-page .sm-link{
+   color: black;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 2.5rem;
+}
+.landing-page .sm-link i{
+    margin: auto;
+}
+.landing-page .sm-link:hover{
+    background-image: linear-gradient(to right, #28DAB3, #00f0ff);
+    color: #fff;
+}
+
+.landing-page .image-group{
+    position: relative;
+    
+}
+.landing-page .per1{
+    position: absolute;
+    width: 45rem;
+    height: 90rem;
+    top:-70rem;
+    left: 8rem;
+    transform: scaleX(2);
+    z-index: -1;
+    
+}
+
+
+ /*Landing page part*/
+
+.landing-page2{
+     max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.landing-page2 .leaves-l{
+    
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+.landing-page2 .leaves-l img{
+    position: absolute;
+    top:0;
+    left: -13rem;
+}
+
+.landing-page2 .leaves-l h2 {
+    position: absolute;
+    top:13rem;
+    right: 65rem;
+    font-size: 3rem;
+    
+}
+
+.landing-page2 .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+    padding: 22rem 0;
+    
+   
+}
+
+.landing-page2 .image-per2{
+    position: relative;
+    left:8rem;
+    top: 8rem;
+    text-align: center;
+}
+
+.landing-page2 .content-details{
+    max-width: 50%; 
+    line-height: 1.8;
+    margin-left: 15rem;
+    margin-top: 8rem;
+}
+
+.landing-page2 .content-details .title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.landing-page2 .image-dott1{
+    position: relative;
+    left: 45rem;
+    top: -1.5rem;
+   z-index: 1111;
+}
+
+
+/*landing page3 */
+
+.landing-page3{
+     max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: -1111;
+}
+
+.landing-page3 .content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+   margin-top: -3rem;
+    
+    
+   
+}
+.landing-page3 .content-details2 .title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.landing-page3 .content-details2{
+    max-width: 55%; 
+    
+    line-height: 1.9;
+    margin-left: 20rem;
+    margin-top: -10rem;
+}
+
+.landing-page3 .image-per3{
+    position: absolute; 
+    right: 15rem;
+    top: 1rem;
+    z-index: -1111;
+}
+
+
+.landing-page3 .image-dott2{
+   position: relative;
+    right: 30rem;
+    top: 8rem;
+}
+.landing-page3 .leaves-l2{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+}
+.landing-page3 .leaves-l2 img{
+    position: absolute;
+    right: -20rem;
+   margin-top: -40rem;
+    z-index: -1;
+}
+
+
+
+.landing-page3 .content3{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    height: 100vh;
+    z-index: 1111;
+    margin-top: -35rem;
+    margin-left: 18rem;
+}
+.landing-page3  .content3 .content-details{
+    max-width: 60%; 
+    line-height: 1.9;
+    
+}
+.landing-page3  .content3 .title{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/*recent-work*/
+
+.recent-work{
+  
+      width: 100%;
+    min-height: 100vh; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.recent-work .head-title {
+    text-align: center;
+    padding-bottom: 15rem ;
+}
+
+.recent-work .galary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 15rem 20rem;
+    margin-top: -20rem;
+}
+
+
+
+.recent-work .galary-imge {
+    width: 475px;
+    height: 531px;
+    padding: 3rem;
+
+    
+}
+.recent-work  .uper{
+    position: relative;
+    top: -5rem;
+}
+
+.recent-work .view{
+    margin-bottom: 1rem;
+}
+.recent-work .view-btn{
+    position: absolute;
+    background: #3F3D56;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5rem;
+    width: 13rem;
+    left: 60rem;
+    margin-top: 6rem;
+}
+.recent-work .view-btn:hover{
+     opacity: .6;
+}
+.recent-work .leaves-l3{
+    position: absolute;
+    right: -28rem;
+   margin-top: -76rem;
+    z-index: -1;
+}
+
+/* Start new project*/
+
+.new-pro{
+     max-width: 100%;
+    min-height: 50vh;
+    position: absolute;
+   margin-left: 15rem;
+    
+}
+
+
+.reday{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   padding: 15rem ;
+    z-index: 1;
+    margin-top: 10rem;
+    
+}
+
+.reday .box{
+margin-left: 3rem;
+    
+}
+.reday .box .detiles{
+    font-size: 3rem;
+    font-weight: bold;
+    width: 30rem;
+    margin-bottom: 5rem;
+    
+}
+
+
+.reday .box .view-btn1{
+    position: absolute;
+    background: #3F3D56;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5rem;
+    width: 13rem;
+    
+}
+.reday .box .view-btn1:hover{
+     opacity: .6;
+}
+
+.reday .sm-list{
+    display: flex;
+    margin-top: 10rem;
+}
+.reday .sm-link{
+   color: black;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 2.5rem;
+}
+.reday .sm-link i{
+    margin: auto;
+}
+.reday .sm-link:hover{
+    background-image: linear-gradient(to right, #28DAB3, #00f0ff);
+    color: #fff;
+}
+
+.reday.last-img{
+    position: relative;
+    
+    
+}
+.reday .per-last{
+    position: absolute;
+    width: 35rem;
+    height: 90rem;
+    top:-45rem;
+    right: 8rem;
+    transform: scaleX(2.7);
+     z-index: -1;
+    
+   
+}
+.reday .leaves-l4{
+    position: absolute;
+    left: -13rem;
+}
+
